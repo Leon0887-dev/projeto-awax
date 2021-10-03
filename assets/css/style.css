@@ -830,6 +830,7 @@ justify-content: center;
     background-size: cover;
     background-position: center;
     padding: 30px 0;
+    position: relative;
 }
 .section-map--area{
     width: 100vw;
@@ -865,4 +866,93 @@ justify-content: center;
 .section-map--info-item-img img{
     width: 15px;
     height: auto;
+}
+
+
+
+footer .default{
+    padding: 20px 0;
+    position: relative;
+}
+
+.footer-area{
+    max-width: 1140px;
+    margin: auto;
+    
+    height: 200px;
+    color: #fff;
+}
+.footer-infos{
+    display: flex;
+    height: 100%;
+}
+.footer-info--sociais{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-info--sociais-img{
+    display: flex;
+}
+.footer-info--sociais-img a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(55, 55, 55);
+    border-radius: 15px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.footer-info--sociais-img a:hover{
+    background-color: var(--color-site--);
+}
+.footer-info--sociais p{
+    text-transform:uppercase;
+    font-weight: 600px;
+    font-size: 15px;
+}
+.footer-info--txt{
+    flex: 1;
+}
+.footer-info--txt p{
+    font-size: 13px;
+    line-height: 25px;
+    color: rgb(126, 126, 126);
+    padding-right: 3%;
+}
+.footer-info--form{
+    flex: 1;
+    background-color: rgb(55, 55, 55);
+}
+.footer-info--form{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.footer-info--form-campu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-info--form-campu a{
+    text-align: center;
+}
+.footer-info--form-campu input{
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid rgb(207, 207, 207);
+    padding: 20px;
+    background-color: rgb(55, 55, 55);
+    text-align: left;
+    color: rgb(158, 158, 158);
+}
+.footer-info--form-campu input::placeholder{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(158, 158, 158);
 }
