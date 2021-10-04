@@ -870,11 +870,25 @@ justify-content: center;
 
 
 
-footer .default{
-    padding: 20px 0;
-    position: relative;
+.arrow{
+    width: 250px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+}
+.arrow-area{
+    width: 65px;
+    height: 65px;
+    border-radius: 35px;
+    background-color: var(--color-site--);
+    position: absolute;
 }
 
+footer{
+    background-color: #000;
+    padding: 30px 0;   
+}
 .footer-area{
     max-width: 1140px;
     margin: auto;
